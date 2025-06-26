@@ -1,0 +1,220 @@
+import { StyleSheet } from 'react-native';
+import { COLORS } from './constants';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#f6fbfa',
+ 
+  },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 20,
+     paddingTop: 28,
+    paddingBottom: 10,
+    
+  },
+  headerText: {
+    fontFamily: 'Poppins_700Bold',
+    fontSize: 24,
+    color: '#23272F',
+  },
+  tabsRow: {
+    flexDirection: 'row',
+    paddingHorizontal: 20,
+    marginBottom: 12,
+    marginTop: 18,
+  },
+  tabButton: {
+    marginRight: 24,
+    paddingBottom: 8,
+  },
+  tabText: {
+    fontFamily: 'Poppins_700Bold',
+    fontSize: 16,
+    marginRight: 6,
+  },
+  tabBadge: {
+    borderRadius: 10,
+    minWidth: 20,
+    height: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 6,
+  },
+  searchBar: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#f3f4f6',
+    borderRadius: 12,
+    marginHorizontal: 20,
+    paddingHorizontal: 16,
+    paddingVertical: 10,
+    marginBottom: 10,
+  },
+  searchInput: {
+    flex: 1,
+    fontFamily: 'Poppins_400Regular',
+    fontSize: 15,
+    color: '#23272F',
+  },
+  filterScroll: {
+    marginBottom: 6,
+    minHeight: 32,
+    maxHeight: 32,
+    marginHorizontal: 20,
+  },
+  filterChip: {
+    borderRadius: 13,
+    paddingVertical: 4,
+    paddingHorizontal: 12,
+    marginRight: 8,
+    height: 28,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  filterText: {
+    fontFamily: 'Poppins_400Regular',
+    fontSize: 13,
+  },
+  content: {
+    flex: 1,
+    marginTop: 0,
+    marginHorizontal: 20,
+  },
+  card: {
+    backgroundColor: '#fff',
+    borderRadius: 16,
+    padding: 16,
+    marginBottom: 16,
+    marginHorizontal: 0,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.06,
+    shadowRadius: 8,
+    elevation: 1,
+    borderWidth: 1,
+    borderColor: '#e0f3ea',
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+  },
+  avatar: {
+    width: 48,
+    height: 48,
+    borderRadius: 24,
+    marginRight: 12,
+    marginTop: 2,
+  },
+  cardName: {
+    fontFamily: 'Poppins_700Bold',
+    fontSize: 16,
+    color: '#23272F',
+    flex: 1,
+  },
+  connectBtn: {
+    backgroundColor: '#34e3b0',
+    borderRadius: 8,
+    paddingVertical: 6,
+    paddingHorizontal: 16,
+    marginLeft: 8,
+  },
+  connectBtnText: {
+    color: '#fff',
+    fontFamily: 'Poppins_600SemiBold',
+    fontSize: 14,
+  },
+  cardEdu: {
+    fontFamily: 'Poppins_400Regular',
+    fontSize: 13,
+    color: '#6b7280',
+    marginBottom: 7,
+  },
+  skillTag: {
+    backgroundColor: '#e0e7ff',
+    borderRadius: 8,
+    paddingVertical: 3,
+    paddingHorizontal: 9,
+    marginRight: 6,
+    marginBottom: 4,
+  },
+  skillText: {
+    fontFamily: 'Poppins_400Regular',
+    fontSize: 12,
+    color: '#2563eb',
+  },
+  wantTag: {
+    backgroundColor: '#d1fae5',
+    borderRadius: 8,
+    paddingVertical: 3,
+    paddingHorizontal: 9,
+    marginRight: 6,
+    marginBottom: 4,
+  },
+  wantText: {
+    fontFamily: 'Poppins_400Regular',
+    fontSize: 12,
+    color: '#059669',
+  },
+  centerEmpty: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  emptyText: {
+    fontFamily: 'Poppins_400Regular',
+    fontSize: 16,
+    color: '#b5b5b5',
+  },
+  header: {
+  flexDirection: 'row',
+  alignItems: 'center',
+  paddingHorizontal: 20,
+  paddingVertical: 15,
+},
+backButton: {
+  marginRight: 15,
+},
+headerTitle: {
+  fontSize: 18,
+  fontFamily: 'Poppins_600SemiBold',
+  color: COLORS.text,
+},
+searchContainer: {
+  flexDirection: 'row',
+  alignItems: 'center',
+  backgroundColor: COLORS.cardBackground,
+  marginHorizontal: 20,
+  marginBottom: 15,
+  paddingHorizontal: 15,
+  paddingVertical: 10,
+  borderRadius: 10,
+},
+searchInput: {
+  flex: 1,
+  marginLeft: 10,
+  fontSize: 16,
+  color: COLORS.text,
+},
+loadingText: {
+  marginTop: 10,
+  fontSize: 16,
+  color: COLORS.textSecondary,
+},
+clearSearchButton: {
+  marginTop: 15,
+  paddingVertical: 8,
+  paddingHorizontal: 20,
+  backgroundColor: COLORS.primary,
+  borderRadius: 20,
+},
+clearSearchText: {
+  color: 'white',
+  fontSize: 14,
+  fontFamily: 'Poppins_600SemiBold',
+},
+
+
+  
+});
